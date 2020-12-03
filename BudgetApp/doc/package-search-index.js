@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.rochdi.budgetApp"},{"l":"com.rochdi.collections"},{"l":"com.rochdi.functions"},{"l":"com.rochdi.loops"},{"l":"com.rochdi.variables"}]

@@ -24,11 +24,13 @@ public class TanteFortune {
 		
 		int books = input - rest;
 		
+		int minus = rest/3;
+		
 		int coffee = rest/3/10;
 		int recharge = rest/3/10;
 		int tram = rest/3/8;
 		
-		int flowers = ((rest/3)%coffee*10) + ((rest/3)%recharge*10) + ((rest/3)%tram*8);
+		int flowers = (rest/3)%10 +(rest/3)%10 + (rest/3)%8 + rest - (minus*3) ;
 		
 		System.out.println("Livres et fournitures : " + books);
 		System.out.println("Vous pouvez ensuite acheter :");
@@ -36,6 +38,7 @@ public class TanteFortune {
 		System.out.println(recharge + " cartes de recharge prépayées");
 		System.out.println(tram + " billets de TRAME");
 		System.out.println("Et il vous restera "+flowers+" MAD pour les roses blanches");
+		
 		
 	}
 }

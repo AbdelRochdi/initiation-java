@@ -32,7 +32,7 @@ public class calculator {
 			System.out.println(TTC(price));
 		}
 		
-		
+	sc.close();
 		
 		
 		
